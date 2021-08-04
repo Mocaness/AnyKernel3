@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=SiLonT Kernel by Reinazhard @ Telegram
+kernel.string=Forked kernel build by @yuu_ak15 to fulfill self need
 do.devicecheck=1
 do.modules=0
 do.systemless=1
