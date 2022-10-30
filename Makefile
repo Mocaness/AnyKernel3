@@ -1,4 +1,4 @@
-NAME := Avarice-Kernel
+NAME := KalinaNegev-Mido
 
 CODE := Mido
 
