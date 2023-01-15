@@ -1,7 +1,7 @@
-# AnyKernel3 Ramdisk Mod Script
-# osm0sis @ xda-developers
+### AnyKernel3 Ramdisk Mod Script
+## osm0sis @ xda-developers
 
-## AnyKernel setup
+### AnyKernel setup
 # begin properties
 properties() { '
 kernel.string=Forked kernel build by @yuu_ak15 to fulfill self need
@@ -25,17 +25,9 @@ is_slot_device=0;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
 
-
 ## AnyKernel methods (DO NOT CHANGE)
 # import patching functions/variables - see for reference
 . tools/ak3-core.sh;
-
-
-## AnyKernel file attributes
-# set permissions/ownership for included ramdisk files
-set_perm_recursive 0 0 755 644 $ramdisk/*;
-set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
-
 
 ## AnyKernel boot install
 dump_boot;
